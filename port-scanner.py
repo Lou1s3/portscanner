@@ -2,7 +2,9 @@
 #
 #Python Port-Scanner.
 #
-#Autora: Emmanuelle Corrá.
+#Autora: Emmanuelle Corrá. RM: 93392
+#Turma: 1TDCA - CyberSecurity
+#Professor: Fábio Pires.
 #
 #Versão: 1.0.0.
 
