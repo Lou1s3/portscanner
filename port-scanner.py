@@ -31,8 +31,8 @@ def scan(ip, port):
 with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
     for port in range(1000):
         executor.submit(scan, ip, port +1)
-
-        #############################
+        
+   ############################# 
         
 def get_arguments():
     parser = argparse.ArgumentParser()
@@ -41,3 +41,4 @@ def get_arguments():
     parser.add_argument("-o", "--lock", action="store", help="Vai fazer com que não seja indicada mais de 1 porta ao mesmo tempo, fazendo com que não embaralhe.)")
     args = parser.parse_args()
     
+    ##############################
