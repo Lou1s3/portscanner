@@ -13,7 +13,7 @@ import argparse
 
 print_lock = threading.Lock()
 
-ip = input('Adicione o endereço IP para o escaneamento': )
+ ip = args.ip ('Adicione o endereço IP para o escaneamento': )
 
 def scan(ip, port):
     scanner = socket.socket(socket.AF_INET, socket.SOCK_STEAM)
