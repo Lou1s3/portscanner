@@ -1,6 +1,10 @@
 #!/usr/bin/python3
-#Copyright (C) 2022 Emmanuelle Corrá
-#Versão: 1.2
+#
+#Python Port-Scanner.
+#
+#Autora: Emmanuelle Corrá.
+#
+#Versão: 1.0.0.
 
 import socket
 import threading
