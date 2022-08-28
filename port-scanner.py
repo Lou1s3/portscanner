@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+#Copyright (C) 2022 Emmanuelle Corrá
+#Versão: 1.2
 
 import socket
 import threading
