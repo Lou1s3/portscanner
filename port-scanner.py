@@ -41,6 +41,10 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
     #args = parser.parse_args()
     #return args
     
+    
+    
+    
+    
     ##############################
     
     #NOTA: Tive grande dificuldade para fazer a atividade. Me faltou conhecimento para finaliza-la corretamente. Fiz o meu melhor, não sabia mais como continuar,
