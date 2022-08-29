@@ -42,3 +42,5 @@ def get_arguments():
     args = parser.parse_args()
     
     ##############################
+    #NOTA: Tive grande dificuldade para fazer a atividade. Me faltou conhecimento para finaliza-la corretamente. Fiz o meu melhor, não sabia mais como continuar,
+    #esse foi o meu máximo. =)
