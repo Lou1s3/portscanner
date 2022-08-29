@@ -11,7 +11,7 @@
 import socket
 import threading
 import concurrent.futures
-#import argparse
+import argparse
 
 print_lock = threading.Lock()
 
@@ -33,13 +33,13 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
         executor.submit(scan, ip, port +1)
        
         
-#def get_arguments():
-    #parser = argparse.ArgumentParser()
-    #parser.add_argument("-p", "--ports", action="store",  help="Irá indicar a quantidade de portas para serem escaneadar.")
-    #parser.add_argument("-t", "--ip", action="store", help="O target é o endereço de IPV4. Caso não exista um IPV4, não terá como identificar se a porta está aberta.")
-    #parser.add_argument("-o", "--lock", action="store", help="Vai fazer com que não seja indicada mais de 1 porta ao mesmo tempo, fazendo com que não embaralhe.)")
-    #args = parser.parse_args()
-    #return args
+def get_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-p", "--ports", action="store",  help="Irá indicar a quantidade de portas para serem escaneadar.")
+    parser.add_argument("-t", "--ip", action="store", help="O target é o endereço de IPV4. Caso não exista um IPV4, não terá como identificar se a porta está aberta.")
+    parser.add_argument("-o", "--lock", action="store", help="Vai fazer com que não seja indicada mais de 1 porta ao mesmo tempo, fazendo com que não embaralhe.)")
+    args = parser.parse_args()
+    return args
     
     
     
